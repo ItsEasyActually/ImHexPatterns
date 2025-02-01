@@ -94,6 +94,8 @@ struct Point {
    u8 CenterOnPlayer [[color("FEFE00")]]; 
 };
 
+//#pragma endian big
+
 u32 Content @ 0x00;
 u32 CameraData @ 0x04;
 u32 PointData @ 0x08;
